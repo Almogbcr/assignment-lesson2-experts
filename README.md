@@ -1,12 +1,29 @@
 # assignment-lesson2-experts
-Assignment for lesson 2 with devops expoerts
-Create Python app.py by code given by Yariv
-Create docker file:
-Use python Slim version to reduce image's size 
-no external libraries needed 
-workdir - /usr/src
-Docker Hub token is Required for pushing images to docker hub
-This Project image
-docker pull almogbcr/http-app:latest
-run command 
-docker run --name httpapptest -p 8080:8080 --rm http-app:latest
+
+Assignment for lesson 2 with **DevOps Experts**
+
+---
+
+## Description
+- Create a Python app (`app.py`) based on code given by Yariv
+- Create a Dockerfile
+- Use **Python slim** image to reduce image size
+- No external libraries needed
+
+---
+
+## Dockerfile Requirements
+- Base image: `python:3-slim`
+- Workdir: `/usr/src`
+
+---
+
+## Docker Hub
+- Docker Hub token is **required for pushing images**
+- Not required for pulling public images
+
+---
+
+## Image
+```bash
+almogbcr/http-app:latest
